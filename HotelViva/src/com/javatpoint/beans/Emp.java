@@ -16,6 +16,7 @@
 	private int hour;
 	private boolean status;
 	
+	
 	public int getHour() {
 		return hour;
 	}
