@@ -13,7 +13,21 @@
 	private String checkin ;   
 	private String checkout;
 	private int roomno;
+	private int hour;
+	private boolean status;
 	
+	public int getHour() {
+		return hour;
+	}
+	public void setHour(int hour) {
+		this.hour = hour;
+	}
+	public boolean isStatus() {
+		return status;
+	}
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
 	public String getAddress() {
 		return address;
 	}
