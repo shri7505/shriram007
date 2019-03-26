@@ -3,7 +3,6 @@ package com.javatpoint.beans;
 import org.springframework.web.multipart.MultipartFile;
 
 public class EmployeeProfile {
-
 	private String first_name;
 	private String last_name;
 	private long mobile;
