@@ -127,5 +127,13 @@ public class Emp {
 	public void setCheckout(String checkout) {
 		this.checkout = checkout;
 	}
+	
+	@Override
+	public String toString() {
+		return "Emp [id=" + id + ", name=" + name + ", email=" + email + ", phone=" + phone + ", address=" + address
+				+ ", gender=" + gender + ", cid=" + cid + ", details=" + details + ", age=" + age + ", checkin="
+				+ checkin + ", checkout=" + checkout + ", roomno=" + roomno + ", hour=" + hour + ", status=" + status
+				+ "]";
+	}
 
 }
