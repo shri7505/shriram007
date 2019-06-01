@@ -14,6 +14,10 @@ public class Room {
 		this.status = status;
 	}
 
+	public Room() {
+		super();
+	}
+
 	public int getRoomno() {
 		return roomno;
 	}
